@@ -1,0 +1,195 @@
+/* Reset default margin and padding, and apply a background pattern */
+body {
+  margin: 0;
+  background-image: url("/img/pattern.svg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Styles for the top navigation bar */
+.topnav {
+  background: #232323;
+  width: 620px;
+  display: flex;
+  box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.3);
+  border: 2px solid;
+  border-color: white;
+  margin: 80px auto 0 auto;
+  font-family: "Open Sans";
+  font-size: 15.8px;
+}
+
+/* Styles for navigation links in the top bar */
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Styles for the active navigation link */
+.topnav a.active {
+  background-color: #0062aa;
+  color: white;
+}
+
+/* Styles for the resume container */
+#a4 {
+  width: 620px;
+  height: 877px;
+  padding: 0;
+  display: flex;
+  margin: 20px auto 0 auto;
+  box-shadow: 20px 20px 5px 0px rgb(0, 0, 0, 0.3);
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  background-color: white;
+}
+
+/* Styles for the resume container with a link */
+#a4-link {
+  width: 620px;
+  height: auto;
+  padding: 0;
+  display: block;
+  margin: 20px auto 0 auto;
+  box-shadow: 20px 20px 5px 0px rgb(0, 0, 0, 0.3);
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+}
+
+/* Styles for the profile picture */
+#profilePic {
+  width: 100%;
+  margin: 0;
+}
+
+/* Common styles for text elements */
+div {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+/* Styles for the left side of the resume */
+.leftTitle {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 10px;
+  margin: 3% 10%;
+  letter-spacing: 4px;
+  font-size: 25px;
+}
+
+/* Styles for description text on the left side */
+.leftDesc {
+  margin: 3% 10%;
+  font-size: small;
+}
+
+/* Styles for bullet-point lists on the left side */
+.leftDescBullet {
+  font-size: small;
+  line-height: 20px;
+}
+
+/* Styles for icon-based contact information on the left side */
+.leftDescIcon {
+  font-size: small;
+  margin-left: 10%;
+}
+
+/* Styles for the right side of the resume */
+.rightTitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #232323;
+  font-size: 25px;
+  letter-spacing: 4px;
+  text-align: left;
+  margin: 0 0 0 7%;
+}
+
+/* Styles for bullet-point lists on the right side */
+.rightDescBullet {
+  color: #232323;
+  font-size: 15px;
+  text-align: left;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+/* Styles for the name heading */
+#name {
+  font-family: "Libre Baskerville";
+  font-weight: 700;
+  line-height: 70px;
+  color: #232323;
+  font-size: 60px;
+  text-align: left;
+  margin: 10% 10% 10% 7%;
+}
+
+/* Styles for the student title */
+#studentTitle {
+  color: #232323;
+  font-size: 20px;
+  text-align: left;
+  margin: 0 0 7% 7%;
+}
+
+/* Common styles for unordered lists */
+ul {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Styles for the left side container */
+#leftSide {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: #232323;
+}
+
+/* Styles for the right side container */
+#rightSide {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.navBarTitle {
+  color: #232323;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  margin: 2%;
+}
+.navBarDesc {
+  color: #232323;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin: -2% 0 2% 0;
+}
+
+/* Styles for the copyright text */
+#copyright {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 40px;
+}
+
+/* Styles for inline-block text elements */
+#bulletText {
+  display: inline-block;
+  text-align: left;
+}
